@@ -1,0 +1,97 @@
+body{
+    background: url();
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 3em;
+    margin: 100px 0px 60px 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+#todo-form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+#todo-input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+    font-size: 1.2em;
+    margin-right: 5px;
+    color: ivory;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+#todo-input-btn{
+    background-color:rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 50%;
+    padding: 0px 9px;
+    font-size: 1.1em;
+    color: gray;
+}
+
+#todo-input-btn:hover{
+    background-color:rgba(58, 156, 91, 0.5);
+    color: ivory;
+}
+
+#list{
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#list li{
+    padding: 0px;
+    font-size: 1.1em;
+    color: ivory;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+#list p{
+    margin: 0px 5px;
+    padding: 5px;
+}
+
+#list button{
+    margin: 5px 5px;
+    padding: 4px 7px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 50%;
+    color: gray;
+}
+
+#list button:hover{
+    background-color: rgba(255, 0, 0, 0.3);
+    color: ivory;
+}
+
+#todo-input:hover{
+    outline: none;
+}
+
+#list li{
+    display: flex;
+}
+
+#finished-p{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    color: ivory;
+    font-style: italic;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'PT Serif', serif;
+    margin-top: 30px;
+}
