@@ -64,7 +64,7 @@ function addList(e){
             const finishedP = document.querySelector("#finished-p");
             finishedP.innerHTML = `finished : ${seletChecklistCount}`
         }
-        
+         
         // 삭제버튼 설정하기
         deleteBtn.addEventListener("click",deleteList);
         function deleteList(e){
