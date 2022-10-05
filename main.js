@@ -8,6 +8,7 @@ const RandomNum = Math.floor(Math.random()*imgList.length);
 // 주소 할당하기
 const bodyBackground = document.querySelector("body");
 bodyBackground.style.background = `url(./img/${imgList[RandomNum]})`;
+bodyBackground.style.backgroundSize = 'cover'; 
 
 // 투두리스트 만들기
 const todoForm = document.querySelector("#todo-form");
